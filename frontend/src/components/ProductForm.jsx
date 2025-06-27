@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const categories = ['Electronics', 'Clothing', 'Food'];
+const categories = ['Electronics', 'Clothing', 'Food','Furniture','Accessories','Toys','Books'];
 
 const ProductForm = ({ fetchProducts, editProduct, setEditProduct }) => {
   const [form, setForm] = useState({ name: '', price: '', description: '', image: '', category: '' });
